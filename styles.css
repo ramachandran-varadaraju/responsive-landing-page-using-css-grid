@@ -6,12 +6,20 @@
   padding: 0;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   line-height: 1.7;
-  zoom: 70%;
-  height: 100vh;
+  zoom: 80%;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +28,7 @@ body {
 .testimonials {
   max-width: 1440px;
   padding: 1rem;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   display: grid;
   /* grid-template-areas:
     "daniel daniel jonathan kira"
